@@ -9,7 +9,7 @@ function CategoryMain() {
   return (
     <>
       <PageHeader
-        url="public/cate.png"
+        url="/public/cate.png"
         header="Category"
         first="Home"
         seconed="Category"
