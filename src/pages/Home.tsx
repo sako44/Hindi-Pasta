@@ -10,18 +10,18 @@ import Footer from "../components/Footer";
 
 function Home() {
   return (
-   <>
-        <Landing />
-        <ScrollBar />
-        <Main />
-        <ServiceOne />
-        <ServiceTwo />
-        <Logo />
-        <Map />
-        <Reviews />
-        <Footer />
-   </>
-  )
+    <>
+      <Landing />
+      <ScrollBar />
+      <Main />
+      <ServiceOne />
+      <ServiceTwo />
+      <Logo />
+      <Map />
+      <Reviews />
+      <Footer />
+    </>
+  );
 }
 
-export default Home
+export default Home;

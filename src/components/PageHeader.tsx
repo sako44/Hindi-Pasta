@@ -27,9 +27,9 @@ function PageHeader({
           {header}
         </motion.h1>
         <motion.div
-        initial={{ opacity: 0, x: -7 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 2, type: "spring" }}
+          initial={{ opacity: 0, x: -7 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2, type: "spring" }}
         >
           <Link
             to="/"
@@ -42,6 +42,7 @@ function PageHeader({
           <span className="font-semibold text-lg underline">{seconed}</span>
         </motion.div>
       </p>
+      <img src={url} alt="" />
     </section>
   );
 }
