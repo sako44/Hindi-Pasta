@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #fcf8f4;
+}
+.footer-font{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.active{
+  color: #2196f3;
+  border-bottom: 1px solid #2196f3;
+}
+.one-line::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #2196f3;
+  bottom: 0;
+  right: -100%;
+  transition-duration: 0.5s;
+}
+.one-line:hover::before {
+  right: 0;
+}
+.one-line::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #2196f3;
+  bottom: 3px;
+  left: -100%;
+  transition-duration: 0.5s;
+}
+.one-line:hover::after {
+  left: 0;
+}
+.background {
+  background-image: url("public/ice.jpeg");
+  background-size: cover;
+}
+
+.line::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  background-color: white;
+  bottom: 50%;
+  transform: translateY(50%);
+  right: -35%;
+}
+.line::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  background-color: white;
+  bottom: 50%;
+  transform: translateY(50%);
+  left: -35%;
+}
+
+@media (min-width: 1024px) {
+  .line::before {
+    width: 100px;
+    right: -43%;
+  }
+  .line::after {
+    width: 100px;
+    left: -43%;
+  }
+}
+
+.half-line::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  background-color: #2196f3;
+  bottom: 50%;
+  transform: translateY(50%);
+  right: -45%;
+}
+.special-font {
+  font-family: "Qwitcher Grypen", "cursive";
+}
+.bg-1 {
+  background-image: url("public/cake-1.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+.bg-2 {
+  background-image: url("public/cake-2.jpg");
+  background-size: cover;
+}
+.bg-3 {
+  background-image: url("public/cake-3.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+.bg-4 {
+  background-image: url("public/cake-4.jpg");
+  background-size: cover;
+}
+.font{
+  font-family: "Roboto Slab", serif;
+}
+.slick-slide>div {
+  margin: 0 10px;
+}
+.lin::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #2196f3;
+  bottom: 50%;
+  transform: translateY(50%);
+  right: -20%;
+}
+.lin::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #2196f3;
+  bottom: 50%;
+  transform: translateY(50%);
+  left: -20%;
+}
+@media (min-width: 640px) {
+  .lin::before {
+    width: 70px;
+    right: -25%;
+  }
+  .lin::after {
+    width: 70px;
+    left: -25%;
+  }
+}
+@media (min-width: 1024px) {
+  .lin::before {
+    width: 100px;
+    right: -25%;
+  }
+  .lin::after {
+    width: 100px;
+    left: -25%;
+  }
+}
+
+.bg-shadow::before{
+content: "";
+position: absolute;
+z-index: 1;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+opacity: 0.2;
+background: #232323;
+}
