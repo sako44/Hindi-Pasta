@@ -42,7 +42,6 @@ function PageHeader({
           <span className="font-semibold text-lg underline">{seconed}</span>
         </motion.div>
       </p>
-      <img src={url} alt="" />
     </section>
   );
 }
