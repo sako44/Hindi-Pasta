@@ -14,7 +14,7 @@ function Landing() {
               initial={{ opacity: 0, y: -10 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 2, type: "spring" }}
-              src="public/logo_home2.png"
+              src="/logo_home2.png"
               className="ri-cake-3-line w-28"
             ></motion.img>
             <motion.h1

@@ -7,7 +7,7 @@ function AboutUs() {
   return (
     <>
       <PageHeader
-        url="public/about.png"
+        url="/about.png"
         header="About us"
         first="Home"
         seconed="About"
@@ -59,7 +59,7 @@ function AboutUs() {
           initial={{ opacity: 0, y: -10 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 2, type: "spring" }}
-          src="public/about-cake.jpg" alt="" className="object-right  w-[90%] mx-auto h-[350px] object-cover" />
+          src="/about-cake.jpg" alt="" className="object-right  w-[90%] mx-auto h-[350px] object-cover" />
         </head>
       </section>
       <ScrollBar />

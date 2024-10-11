@@ -49,7 +49,7 @@ function Service() {
           initial={{ opacity: 0, x: 7 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 2, type: "spring" }}
-          src="public/hight.png"
+          src="/hight.png"
           alt="ice-creams"
           className="2xl:w-[850px] w-[650px]  px-4  "
         />

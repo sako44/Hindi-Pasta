@@ -142,7 +142,7 @@ function Reviews() {
           {reviews.map((review) => (
             <div className="flex flex-col bg-slate-200 rounded-[15px] p-5 space-y-3 ">
               <p className="flex items-center space-x-4">
-                <img src="public/user.svg" alt="" className=" w-[70px] h-[60px] pb-2 rounded-[100%]" />
+                <img src="/user.svg" alt="" className=" w-[70px] h-[60px] pb-2 rounded-[100%]" />
                 <p>
                   <h1 className="text-xl font-semibold">{review.name}</h1>
                   <h4 className="font-light text-md">Client Review</h4>

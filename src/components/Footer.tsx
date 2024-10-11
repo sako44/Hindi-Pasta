@@ -10,7 +10,7 @@ function Footer() {
           transition={{ duration: 2, type: "spring" }}
           className="space-x-4 items-start justify-center mr-6 hidden lg:flex"
         >
-          <img src="public/logo.png" alt="" className="w-[38px]" />
+          <img src="/logo.png" alt="" className="w-[38px]" />
           <h1 className="footer-font text-4xl tracking-[0.5em] text-white pt-1">
             HINDI
           </h1>
@@ -52,7 +52,7 @@ function Footer() {
             className="flex flex-col space-y-9 items-center lg:pb-12"
           >
             <p className="space-x-4 items-start justify-center mr-3 flex lg:hidden">
-              <img src="public/logo.png" alt="" className="w-[38px]" />
+              <img src="/logo.png" alt="" className="w-[38px]" />
               <h1 className="footer-font text-4xl tracking-[0.5em] text-white pt-1">
                 HINDI
               </h1>
