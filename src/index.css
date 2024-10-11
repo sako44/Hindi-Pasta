@@ -7,11 +7,11 @@ body {
   font-optical-sizing: auto;
   background-color: #fcf8f4;
 }
-.footer-font{
+.footer-font {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
-.active{
+.active {
   color: #2196f3;
   border-bottom: 1px solid #2196f3;
 }
@@ -42,7 +42,7 @@ body {
   left: 0;
 }
 .background {
-  background-image: url("public/ice.jpeg");
+  background-image: url("/ice.jpeg");
   background-size: cover;
 }
 
@@ -92,29 +92,27 @@ body {
   font-family: "Qwitcher Grypen", "cursive";
 }
 .bg-1 {
-  background-image: url("public/cake-1.jpg");
+  background-image: url("/cake-1.jpg");
   background-size: cover;
   background-position: center;
-
 }
 .bg-2 {
-  background-image: url("public/cake-2.jpg");
+  background-image: url("/cake-2.jpg");
   background-size: cover;
 }
 .bg-3 {
-  background-image: url("public/cake-3.jpg");
+  background-image: url("/cake-3.jpg");
   background-size: cover;
   background-position: center;
-
 }
 .bg-4 {
-  background-image: url("public/cake-4.jpg");
+  background-image: url("/cake-4.jpg");
   background-size: cover;
 }
-.font{
+.font {
   font-family: "Roboto Slab", serif;
 }
-.slick-slide>div {
+.slick-slide > div {
   margin: 0 10px;
 }
 .lin::before {
@@ -158,14 +156,14 @@ body {
   }
 }
 
-.bg-shadow::before{
-content: "";
-position: absolute;
-z-index: 1;
-left: 0;
-right: 0;
-top: 0;
-bottom: 0;
-opacity: 0.2;
-background: #232323;
+.bg-shadow::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0.2;
+  background: #232323;
 }
