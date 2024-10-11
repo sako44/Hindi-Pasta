@@ -1,5 +1,4 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import ScrollTop from "./components/ScrrollTop";
 import Home from "./pages/Home";
 import Root from "./pages/Root";
 import ErrorPage from "./pages/ErrorPage";
@@ -35,9 +34,7 @@ function App() {
   ]);
   return (
     <>
-      <RouterProvider router={router}>
-        <ScrollTop />
-      </RouterProvider>
+      <RouterProvider router={router}></RouterProvider>
     </>
   );
 }

@@ -1,6 +1,5 @@
 import Landing from "../components/Landing";
 import Main from "../components/Main";
-import NavBar from "../components/NavBar";
 import ScrollBar from "../components/ScrollBar";
 import ServiceTwo from "../components/ServiceTwo";
 import ServiceOne from "../components/ServiceOne";
