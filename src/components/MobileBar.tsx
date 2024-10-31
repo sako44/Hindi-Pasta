@@ -3,7 +3,6 @@ import { useState } from "react";
 
 function MobileBar() {
   const [show, setShow] = useState(false);
-
   const closeMenu = () => {
     setShow(false);
   };
@@ -34,5 +33,4 @@ function MobileBar() {
     </>
   );
 }
-
 export default MobileBar;

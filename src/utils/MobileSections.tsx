@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom";
-
 type MobileProps = {
   text: string;
   url: string;
   closeMenu: () => void;
 };
-
 function MobileSections({ text, url, closeMenu }: MobileProps) {
   return (
     <Link
