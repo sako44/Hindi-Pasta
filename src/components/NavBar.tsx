@@ -27,10 +27,9 @@ function NavBar() {
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2, type: "spring" }}
-          className="flex space-x-2"
+          className="flex space-x-2 text-transparent"
         >
-          <i className="ri-search-line transition duration-500 ease-in-out hover:text-primary hover:cursor-pointer text-black text-xl"></i>
-          <i className="ri-menu-line text-xl text-black md:hidden"></i>
+         aawda
         </motion.p>
       </div>
       <MobileBar />

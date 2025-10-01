@@ -36,13 +36,14 @@ function Landing() {
             </motion.p>
             <Link to="/category">
               <motion.button
-                initial={{ opacity: 0, y: 10 }}
+                initial={{ opacity: 0, y: -30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 2, type: "spring" }}
-                className=" uppercase text-primary font-semibold bg-white py-3 px-10 rounded-sm
-            hover:bg-primary hover:text-white transition duration-500 ease-in-out"
+                transition={{ duration: 1, type: "spring" }}
+                className="group bg-white py-3 px-10 rounded-sm "
               >
-                Learn More
+                <p className=" uppercase text-primary font-semibold group-hover:text-black transition duration-300 ">
+                  Learn More
+                </p>
               </motion.button>
             </Link>
           </p>

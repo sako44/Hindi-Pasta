@@ -77,7 +77,7 @@ function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 2, type: "spring" }}
           className="mx-auto mt-24
-           w-[100%] h-[400px] sm:w-[450px] md:w-[500px] md:h-[500px] lg:w-[700px] lg:h-[500px]
+           w-[100%] h-[400px] sm:w-[450px] md:w-[500px] md:h-[500px] lg:w-[1000px] xl:w-[1100px] lg:h-[500px]
            "
         >
           <iframe
